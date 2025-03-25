@@ -6,3 +6,10 @@ body {
   background-color: #f1f1f1;
 }
 
+/* Utility classes */
+.u-main-container {
+  @apply max-w-6xl px-12 mx-auto;
+}
+.u-padding-content-container {
+  @apply py-44;
+}
